@@ -3,13 +3,15 @@ A API server built to handle all functions of a Task Manager.
 
 <details><summary>Table of Contents</summary>
 <p>
-1. <a href="#">About The Project<a/><br>
-2. <a href="#">Built With<a/><br>
-3. <a href="#">Getting Started<a/><br>
+<ol>
+<li><a href="#">About The Project</a></li>
+<li><a href="#">Built With</a><li/>
+<li><a href="#">Getting Started</a></li>
   <ul>
-  <li> Prerequisites <li/>
-  <li> Running the Project <li/>
+  <li><a href="#">Prerequisites</a></li>
+  <li><a href="#">Running the Project</a></li>
   <ul/>
+</ol>
 </p>
 </details>
 
