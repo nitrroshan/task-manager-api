@@ -21,7 +21,7 @@ API calls include:
 * User Features
   * login
   * view Profile
-  * Updaate Profile
+  * Update Profile
   * Delete Profile
   * logout
   * logout of all devices
