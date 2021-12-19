@@ -1,4 +1,4 @@
-###  Task Manager API
+#  Task Manager API
 A API server built to handle all functions of a Task Manager.
 
 <details><summary>Table of Contents</summary>
@@ -15,7 +15,7 @@ A API server built to handle all functions of a Task Manager.
 </p>
 </details>
 
-### About The Project
+# About The Project
 It is a basic CRUD application server for an Task WebApp.
 API calls include: 
 * User Features
@@ -31,18 +31,18 @@ API calls include:
   * Show all Tasks
   * Update a Task
   * Delete a Task
-### Built With
+# Built With
 Technologies/Libraries Used:
 * ExpressJS
 * Mongoose
 * MongoDB
 * JWT
 * Bcrypt
-### Getting Started
+# Getting Started
 Follow these steps to setup the poject locally
-# Prerequisites
+## Prerequisites
 * NodeJS
-# Running the Project
+## Running the Project
 * Clone this Repository to your system.
 * Run this command to install Dependancies.
   ```
