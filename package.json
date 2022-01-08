@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
+    "test": "env-cmd -f ./config/test.env jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +20,7 @@
     "i": "^0.3.6",
     "jsnpm": "^0.4.0",
     "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
     "mongodb": "^3.6.3",
     "mongoose": "^5.11.14",
     "multer": "^1.4.2",
@@ -24,6 +29,8 @@
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
-    "nodemon": "^2.0.7"
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.6"
   }
 }
